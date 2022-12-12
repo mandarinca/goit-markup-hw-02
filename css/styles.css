@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto";
-  background: #E5E5E5;
+  background: #e5e5e5;
   color: #2e2f42;
 }
 
@@ -18,8 +18,11 @@ header {
   line-height: 1.3;
   text-decoration: none;
 }
-.studio-word {
+.studio-up {
   color: #2e2f42;
+}
+.studio-down {
+  color: #F4F4FD;
 }
 
 .menu {
@@ -57,50 +60,79 @@ header {
 
 /*main*/
 .dark {
-background: #2E2F42;  
+  background-color: #2e2f42;
 }
 
 .title {
-color: #ffffff;
-font-weight: 600;
-font-size: 56px;
-line-height: 1.1;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.1;
 }
 
 .button-order {
-color: #ffffff;
-background: #4D5AE5;
-font-weight: 600;
-font-size: 16px;
-line-height: 1.2;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  cursor: pointer;
 }
 
-.button-order:hover, .button-order:focus {
-    color: #4D5AE5;
-    background-color: #ffffff;
+.button-order:hover,
+.button-order:focus {
+  color: #4d5ae5;
+  background-color: #ffffff;
 }
 
-.section-one {
-    list-style-type: none;
+.section-one,.section-two {
+  background-color: #E5E5E5;
+  list-style-type: none;
 }
 
 .work-titles {
-color: #2E2F42;
-background-color: #E5E5E5;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.2;
+  color: #2e2f42;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .work-text {
-color: #434455;
-font-size: 16px;
-line-height: 1.5;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .title-two {
-font-weight: 600;
-font-size: 36px;
-line-height: 40px;
+  color: #2E2F42;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.title-three {
+  color: #2E2F42;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team {
+  background-color: #F4F4FD;
+  list-style-type: none;
+}
+.name {
+  color: #2e2f42;
+  background-color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.position {
+  color: #434455;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /*page2-portfolio*/
