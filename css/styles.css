@@ -164,7 +164,6 @@ body {
 }
 
 .cards {
-  background-color: var(--brand-background-color);
   list-style-type: none;
 }
 .card {
@@ -182,8 +181,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.h2:hover,
-.h2:focus,
+.card-title:hover,
+.card-title:focus,
 .card-type:hover,
 .card-type:focus {
   color: #4d5ae5;
